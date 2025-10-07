@@ -1,0 +1,176 @@
+*{
+    font-family: Intergral-Cf;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* font */
+@font-face {
+    font-family: Intergral-Cf;
+    src: url(FONTS/Intergral-cf/Fontspring-DEMO-integralcf-regular.otf);
+    
+  }
+@font-face {
+    font-family: Satoshi;
+    src: url(FONTS/Satoshi_Complete/Fonts/fonts/Satoshi-BlackItalic.eot);
+    
+  };
+/* font */
+/* a{
+    color: Black !important ;
+} */
+li  a {
+    
+    font-weight: 600 !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    size: 16px !important ;
+    line-height: 21.1px !important ;
+    margin-top: 8px;
+}
+input{
+     
+    font-weight: 600 !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    size: 16px !important ;
+    line-height: 21.1px !important ;
+    
+}
+/* shopping cart and user info css */
+.email-t{
+    width: 75%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+ }
+.password-t{
+    width: 75%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+ }
+ .email{
+    color: rgb(135, 135, 135);
+ }
+ .Login-bt{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+ }
+ .sidenav {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   right: 0;
+   color: black;
+   background-color: #ffffff;
+   overflow-x: hidden;
+   transition: 0.5s;
+   padding-top: 57px;
+   border-left: 1px solid rgb(235, 235, 235);
+ }
+ 
+ .sidenav a {
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #818181;
+   display: block;
+   transition: 0.3s;
+ }
+ 
+ .sidenav a:hover {
+   color: #f1f1f1;
+ }
+ 
+ .sidenav .closebtn {
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 36px;
+   margin-left: 50px;
+ }
+ 
+ #main {
+   transition: margin-left .5s;
+   padding: 16px;
+ }
+ 
+ @media screen and (max-height: 450px) {
+   .sidenav {padding-top: 15px;}
+   .sidenav a {font-size: 18px;}
+ }
+ .side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 57px;
+}
+
+.side-nav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+.side-nav li {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+.side-n li:hover a{
+  color: #f1f1f1;
+  background-color: #000000;
+}
+
+.side-nav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+ u:hover{
+  color: #f1f1f1;
+ }
+/* shopping cart and user info css */
+
+/* CSS for card and image */
+.card {
+  position: relative;
+  overflow: hidden;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.card img {
+  transition: transform 0.3s ease;
+}
+
+/* Zoom effect on hover */
+.card:hover img {
+  transform: scale(1.1);
+}
+.icon-hover:hover {
+  border-color: #3b71ca !important;
+  background-color: white !important;
+  color: #3b71ca !important;
+}
+
+.icon-hover:hover i {
+  color: #3b71ca !important;
+}

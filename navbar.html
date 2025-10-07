@@ -1,0 +1,143 @@
+<div class='container-fluid'>
+    <div class='row' style='background-color: black;color: white;'>
+        <span style='display: flex;justify-content: center;font-size: 14px;'>Sign up and get 20% off to your first order. <u style='cursor: pointer;'>Sign Up Now</u></span>
+    </div>
+    <nav class='navbar navbar-expand-lg navbar-light'>
+      <!-- SIDENAVBAR ON SMALL -->
+      <div class='c'>
+          <div id='mySidena' class='side-nav d-lg-none' style='z-index: 2;'>
+            <a href='javascript:void(0)' class='closebtn' onclick='closeNa()'>&times;</a>
+                <a class='nav-link active' aria-current='page' href='#'>On Sale</a>
+                <li class='nav-item dropdown side-na'>
+                  <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded='false'>
+                    SHOP
+                  </a>
+                  <ul class='dropdown-menu side-n' aria-labelledby='navbarDropdown' style='background-color: black;'>
+                    <li><a class='dropdown-item' href='#'>Man</a></li>
+                    <li><a class='dropdown-item' href='#'>Women</a></li>
+                    <li><a class='dropdown-item' href='#'>Kids</a></li>
+                  </ul>
+                </li>
+                <a class='nav-link active' aria-current='page' href='#'>New Arrivals</a>
+                <a class='nav-link active' aria-current='page' href='#'>Brands</a>
+               
+              
+              </div>
+              <span onclick='openNa()' class='d-lg-none d-block '><img src='assets/img/icon-list.png' width='50%' style='margin-top: 37px;' alt=''></span>
+              <div id='main' class='d-lg-none'>
+              </div>
+            </div>
+            <!-- // -->
+            <!-- SIDENAVBAR ON SMALL -->
+
+            <a class='navbar-brand' href='index.php' style='color: black; font-size: 33px;font-weight: bold;font-family: Intergral-Cf;'>SHOP.CO</a>
+            <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+                <ul class='navbar-nav me-auto mb-2 mb-lg-0'>
+                  <li class='nav-item'>
+                    <a class='nav-link active' aria-current='page' href='#'>On Sale</a>
+                  </li>
+                  <li class='nav-item dropdown'>
+                    <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded='false' style='color: black;'>
+                      Shop
+                    </a>
+                    <ul class='dropdown-menu' aria-labelledby='navbarDropdown'>
+                      <li><a class='dropdown-item' href='#'>Man</a></li>
+                      <li><a class='dropdown-item' href='#'>Women</a></li>
+                      <li><a class='dropdown-item' href='#'>Kids</a></li>
+                    </ul>
+                  </li>
+                  <li class='nav-item'>
+                    <a class='nav-link active' aria-current='page' href='#'>New Arrivals</a>
+                  </li>
+                  <li class='nav-item'>
+                    <a class='nav-link active' aria-current='page' href='#'>Brands</a>
+                  </li>
+                </ul>
+                
+                <form class='d-flex w-50 col-6 pt-1 pb-1 ' style='border: 2px solid rgb(240, 240, 240);border-radius: 20px;background-color: rgb(240, 240, 240);padding-left: 7px;'>
+                    <button type='submit' style='border: none;background-color: transparent;margin-right: 5px;'><i class='fa fa-search'></i></button>
+                  <input class='me-2 w-100' type='search' placeholder='Search for products...' aria-label='Search' style='border: none;border-radius: 20px;background-color: rgb(240, 240, 240);outline: none;'>
+                </form>
+                <span class='' >
+                 
+              
+                  <span    class='' onclick='openNav()'><img src='assets/img/Frame.png' style='cursor: pointer;margin-top: 30px;margin-right: 10px;margin-left: 13px;'  alt=''></span>
+                  
+                  
+                  <div id='main'>
+                    
+                  </div>
+                </span>
+                <span> 
+                  <button type='button' style='border: none;background-color: transparent;'data-bs-toggle='modal' data-bs-target='#exampleModal'>
+                    <img src='assets/img/2014807-200.png' width='100%' height='25px' alt='image'>
+                    </button>
+                  </span>
+            </div>
+            <!-- RESONPSIVE SEARCH BAR -->
+            <div class='d-flex d-lg-none'>
+                <input id='jugaad' class='form-control ' type='search' placeholder='Search' aria-label='Search'>
+                <button type='submit' style='border: none;background-color: transparent;'><i class='fa fa-search search'></i></button>
+              </div>
+              <!-- RESONPSIVE SEARCH BAR -->
+              <!-- USER ICON RESPONSIVE -->
+              <span class='d-lg-none' > 
+                <button type='button' style='border: none;background-color: transparent;'data-bs-toggle='modal' data-bs-target='#exampleModal'>
+                  <img src='assets/img/2014807-200.png' width='100%' height='25px' alt='image'>
+                  </button>
+                </span>
+              <!-- USER ICON RESPONSIVE -->
+              <!-- CART ICON RESPONSIVE -->
+                <span  class='d-lg-none' onclick='openNav()'><img src='assets/img/Frame.png' style='cursor: pointer;margin-top: 2px;margin-right: 10px;margin-left: 13px;'  alt=''></span>
+                <div id='mySidenav' class='sidenav'>
+                  <a href='javascript:void(0)' class='closebtn' onclick='closeNav()'>&times;</a>
+                  <h5 class='modal-title' style='border-bottom: 2px solid rgb(235, 235, 235);padding-left: 10px;'id='exampleModalLabel'> Your Cart</h5>
+                  <p style='font-size: smaller;font-weight: 600;padding-left: 10px;'>You have no items in your shopping cart.</p>
+                </div>
+                
+                   <!-- CART ICON RESPONSIVE -->
+            </nav>
+          </div>
+          <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+        }
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
+        function openNa() {
+        document.getElementById("mySidena").style.width = "100%";
+        }
+        function closeNa() {
+        document.getElementById("mySidena").style.width = "0";
+        }
+        $(document).ready(function(){
+        $("#hide").click(function(){
+        $("#toggle_s").toggle(1200);
+        });
+        });
+        $(document).ready(function(){
+        $("#slide").click(function(){
+        $("#toggle").toggle(1200);
+        });
+        });
+        $(document).ready(function(){
+        $(".search").click(function(){
+        $("#jugaad").toggle(1500);
+        });
+        });
+        window.onload = function () { 
+        document.getElementById ('toggle_s').style.display = 'none'; }; 
+        $ (document).ready (function () { 
+        $ ("#toggle_s").hide (); });
+        window.onload = function () { 
+        document.getElementById ('toggle').style.display = 'none'; }; 
+        $ (document).ready (function () { 
+        $ ("#toggle").hide (); });
+        window.onload = function () { 
+        document.getElementById ('jugaad').style.display = 'none'; }; 
+        $ (document).ready (function () { 
+        $ ("#jugaad").hide (); });
+            </script>
+        
+         

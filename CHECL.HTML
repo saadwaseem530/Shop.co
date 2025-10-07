@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div   class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="font-weight: 700; font-size: 32px; " >SHOP.CO</a>
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"  >Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex w-75 me-auto mt-2  d-lg-block col-6 pt-1 pb-1 pr-5" style=" border: 2px solid rgb(240, 240, 240);border-radius: 20px;background-color: rgb(240, 240, 240);padding-left: 7px;">
+                    <button type="submit" style="border: none;background-color: transparent;margin-right: 5px; margin-bottom: 5px; "><i class="fa fa-search"></i></button>
+                  <input class="me-2 w-50" type="search" placeholder="Search for products..." aria-label="Search" style="border: none;border-radius: 20px;background-color: rgb(240, 240, 240);outline: none;">
+                </form>
+              </div>
+              <!-- //LARGER SCREEN SEARCH BAR -->
+              <div class="container-fluid">
+                <div class="row" style="background-color: black;color: white;">
+                    <span style="display: flex;justify-content: center;font-size: 14px;">Sign up and get 20% off to your first order. <u style="cursor: pointer;">Sign Up Now</u></span>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  <div class="c">
+                      <div id="mySidena" class="side-nav d-lg-none" style="z-index: 2;">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNa()">&times;</a>
+                            <a class="nav-link active" aria-current="page" href="#">On Sale</a>
+                            <li class="nav-item dropdown side-na">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                              </a>
+                              <ul class="dropdown-menu side-n" aria-labelledby="navbarDropdown" style="background-color: black;">
+                                <li><a class="dropdown-item" href="#">Man</a></li>
+                                <li><a class="dropdown-item" href="#">Women</a></li>
+                                <li><a class="dropdown-item" href="#">Kids</a></li>
+                              </ul>
+                            </li>
+                            <a class="nav-link active" aria-current="page" href="#">New Arrivals</a>
+                            <a class="nav-link active" aria-current="page" href="#">Brands</a>
+                          </div>
+                          <span onclick="openNa()" class="d-lg-none"><img src="/assets/img/icon-list.png" width="50%" style="margin-top: 37px;" alt=""></span>
+                          <div id="main" class="d-lg-none">
+                          </div>
+                        </div>
+                        <!-- // -->
+                        <a class="navbar-brand" href="#" style="font-size: 45px;font-weight: bold;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: black;">SHOP.CO</a>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">On Sale</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                                  Shop
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Man</a></li>
+                                  <li><a class="dropdown-item" href="#">Women</a></li>
+                                  <li><a class="dropdown-item" href="#">Kids</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">New Arrivals</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Brands</a>
+                              </li>
+                            </ul>
+                            <form class="d-flex w-75 col-6 pt-1 pb-1 pr-5" style="border: 2px solid rgb(240, 240, 240);border-radius: 20px;background-color: rgb(240, 240, 240);padding-left: 7px;">
+                                <button type="submit" style="border: none;background-color: transparent;margin-right: 5px;"><i class="fa fa-search"></i></button>
+                              <input class="me-2" type="search" placeholder="Search for products..." aria-label="Search" style="border: none;border-radius: 20px;background-color: rgb(240, 240, 240);outline: none;">
+                            </form>
+                            <span class="d-none d-lg-block" >
+                              <div id="mySidenav" class="sidenav">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <h5 class="modal-title" style="border-bottom: 2px solid rgb(235, 235, 235);padding-left: 10px;"id="exampleModalLabel"> Your Cart</h5>
+                                <p style="font-size: smaller;font-weight: 600;padding-left: 10px;">You have no items in your shopping cart.</p>
+                              </div>
+                              
+                          
+                              <span onclick="openNav()"><img src="assets/img/Frame.png" style="cursor: pointer;margin-top: 30px;margin-right: 10px;margin-left: 13px;"  alt=""></span>
+                              
+                              
+                              <div id="main">
+                                
+                              </div>
+                            </span>
+                            <span> 
+                              <button type="button" style="border: none;background-color: transparent;"data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="assets/img/2014807-200.png" width="100%" height="25px" alt="image">
+                                </button>
+                              </span>
+                        </div>
+                        <div class="d-flex d-lg-none">
+                            <input id="jugaad" class="form-control " type="search" placeholder="Search" aria-label="Search">
+                            <button type="submit" style="border: none;background-color: transparent;"><i class="fa fa-search search"></i></button>
+                          </div>
+                        </nav>
+                      </div>
+             <!-- //LARGER SCREEN SEARCH BAR -->
+             <!-- SHOPPING CART ANG USER INFO -->
+             <span class=" d-lg-block" >
+                <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <h5 class="modal-title" style="border-bottom: 2px solid rgb(235, 235, 235);padding-left: 10px;"id="exampleModalLabel"> Your Cart</h5>
+                  <p style="font-size: smaller;font-weight: 600;padding-left: 10px;">You have no items in your shopping cart.</p>
+                </div>
+                
+            
+                <span onclick="openNav()"><img src="assets/img/Frame.png" style="cursor: pointer;margin-top: 30px;margin-right: 10px;margin-left: 13px;"  alt=""></span>
+                
+                
+                <div id="main">
+                  
+                </div>
+              </span>
+              <span> 
+                <button type="button" style="border: none;background-color: transparent;"data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="assets/img/2014807-200.png" width="100%" height="25px" alt="image">
+                  </button>
+                </span>
+                <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <a class="navbar-brand" href="#" style="color: black; font-size: 33px;font-weight: bold;font-family: Intergral-Cf;">SHOP.CO</a>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+              <div class="modal-body">
+                <h5 class="modal-title" id="exampleModalLabel">Registered Customers</h5>
+                <p style="font-size: smaller;font-weight: 600;">If you have an account with us, please log in.</p>
+                <label>Email Address</label><br>
+                <a class="email" href="#"><i class="fa fa-user" style="font-size:15px"></i></a> 
+                <input class="email-t" type="email" name="email" id="username" required>
+                <br><br>
+                <label>Password</label><br>
+                <a class="email" href="#"><i class="fa fa-lock" style="font-size:15px"></i></a> 
+                <input class="email-t" type="password" name="password" id="username" required>
+                <br><br>
+                <input class="form-check-input  " type="checkbox" value="" id="form2Example31">
+                <label class="form-check-label" for="form2Example31">Remember me </label>
+                <br><br>
+                <button type="button" class="Login-bt mb-4">Login</button>
+                <div class="p" style="display: flex;">
+                <span style="width: 50%; display: flex;justify-content: left;"><a style="text-decoration: none;font-size: 15px;" href="#">Create an Account</a></span><span style="width: 50%; display: flex;justify-content: right;"><a style="text-decoration: none;color: red;font-size: 14px;" href="#">Forgot password?</a></span>
+              </div>
+                <br>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+              <!-- modal -->
+      
+             <!-- SHOPPING CART ANG USER INFO -->
+             <!-- TOGGLE BUTTON -->
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg clip-rule="evenodd"  fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21 15.75c0-.414-.336-.75-.75-.75h-16.5c-.414 0-.75.336-.75.75s.336.75.75.75h16.5c.414 0 .75-.336.75-.75zm0-4c0-.414-.336-.75-.75-.75h-16.5c-.414 0-.75.336-.75.75s.336.75.75.75h16.5c.414 0 .75-.336.75-.75zm0-4c0-.414-.336-.75-.75-.75h-16.5c-.414 0-.75.336-.75.75s.336.75.75.75h16.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero"/></svg>
+              
+              </button>
+             <!-- TOGGLE BUTTON -->
+            </div>
+          </nav>
+          
+      </div>
+</body>
+</html>
